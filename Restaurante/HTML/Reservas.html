@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Reserva.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="horizontal-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class="form">
+        <div class="form-container">
+            <h2 class="form-title">Formulario de reservas</h2>
+            <label for="text">Nombre Completo</label>
+            <input type="text" class="form-input" placeholder="Ingresa tu nombre" required>
+            <label for="email">Correo Electronico</label>
+            <input type= "email" class="form-input" placeholder="ejemplo123@gmail.com" required>
+            <label for="tel">Telefono</label>
+            <input type="tel" class="form-input" placeholder="Ingresa tu telefono" required>
+            <label for="city">Ciudad</label>
+            <select name="Ciudad" class="form-input" required>
+            <option value="">Selecciona tu ciudad</option>  
+            <option value="">Bogota</option>
+            <option value="">Cali</option>
+            <option value="">Medellin</option>
+            </select>
+            <label for="text">Platos</label>
+            <select name="text" class="form-input" required>
+            <option value="">Selecciona el plato</option>  
+            <option value="">Pasta</option>
+            <option value="">Pechuga</option>
+            <option value="">Carne de res</option>
+            <option value="">Sudado</option>
+            <option value="">Lentejas</option>
+            </select>
+            <label for="text">Bebidas</label>
+            <select name="text" class="form-input" required>
+            <option value="">Selecciona la bebida</option>  
+            <option value="">Jugo de naranja</option>
+            <option value="">Jugo de lulo</option>
+            <option value="">Limonada</option>
+            <option value="">Jugo de maracuya</option> 
+            </select>
+            <label for="fecha">Fecha de reserva</label>
+            <input type="date" class="form-input" required>
+            <label for="Hora">Hora de reserva</label>
+            <input type="time" class="form-input" required>
+            <textarea class="form-input form-input-menssage" placeholder="¡Dejanos un comentario!"></textarea>
+            <input type="submit" value="Enviar " class="form-cta">
+            
+    </div>
+    </form>
+</body>
+</html>
